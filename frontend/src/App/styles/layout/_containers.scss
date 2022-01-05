@@ -1,0 +1,47 @@
+.container {
+  &__main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+.match-list {
+  &__container {
+    width: 100vw;
+    background: $grey-11;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      // justify-content: center;
+      background: white;
+      width: 70rem;
+      height: 6rem;
+      margin: 1rem;
+      padding: 0.5rem;
+    }
+
+    &--meta {
+      display: flex;
+    }
+  }
+}
+
+.nav {
+  &__container {
+    list-style: none;
+    list-style-position: inside;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+    width: 100%;
+    margin-left: 0;
+  }
+}
